@@ -1,4 +1,6 @@
-# React + TypeScript + Vite App
+# Polar Monitoring EMS
+
+## React + TypeScript + Vite App
 
 This is a React project bootstrapped with Vite using TypeScript.
 
@@ -32,4 +34,6 @@ I used MUI icons rather than the icons in the brand guidelines document, as conv
 There are a few UI elements that I would have cleaned up if I had time, for example the alerts page and filter. The navigation menu could also be a bit cleaner and smoother. I also intended to make the UI fully light/dark mode enabled, but I ran out of time. I prefer a dark theme, but I also know that many users would prefer a light theme.
 
 I would also have done a bit more research on a practical system and what would be realistic, but that would mostly be for my personal interest. If time allowed, I would have wanted to build a loading component and make it brand-aware. I would also have used a few more of the suggestions in the guidelines.
+
+Overall, I greatly enjoyed this project. I could have spent many more hours experimenting with the design and implementation. Regardless of what happens, I am grateful to have been given this opportunity. It reminded me why I love front-end development, so thank you.  
 
