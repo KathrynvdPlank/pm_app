@@ -1,0 +1,7 @@
+{
+    "power_consumption_kw": 320.5,
+    "daily_energy_usage_kwh": 7350.8,
+    "battery_state_of_charge_percent": 68.2,
+    "solar_production_kw": 210.7,
+    "grid_import_export_kw": 109.8
+}

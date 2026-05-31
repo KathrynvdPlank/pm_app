@@ -1,12 +1,23 @@
 :root {
+  --primary-color: #33363d;
+  --primary-color-light: #94959a;
+  --secondary-color: #408c87;
+  --secondary-color-light: #9abdb6;
+  --accent-color: #f15822;
+  --accent-color-light: #e39d88;
+  --text-color: #fff;
+  --info-color: #408c87;
+  --success-color: #52bd32;
+  --warning-color: #f1bd22;
+  --error-color: #e61d1d;
+}
+
+:root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -19,7 +30,7 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
+  background: var(--primary-color);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -110,67 +121,6 @@ code {
   background: var(--code-bg);
 }
 
-/* BurgerMenu.css */
-
-.burger-button {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  z-index: 1001;
-}
-
-.side-menu {
-  position: fixed;
-  top: 0;
-  right: -300px;
-  width: 300px;
-  height: 100vh;
-  background: #222;
-  color: white;
-  transition: right 0.3s ease;
-  padding: 2rem;
-  z-index: 1000;
-}
-
-.side-menu.open {
-  right: 0;
-}
-
-.close-button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.side-menu ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 2rem;
-}
-
-.side-menu li {
-  margin-bottom: 1rem;
-}
-
-.side-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.side-menu a.active {
-  font-weight: bold;
-  color: #61dafb;
-}
-
-.valueCard {
-  border: 1px solid grey;
-  border-radius: 20%;
-  padding: 5%;
+.menu-bar {
+  background-color: var(--primary-color) !important;
 }

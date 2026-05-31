@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Battery State of Charge Low",
+        "description": "Battery state of charge has fallen below 20%. Consider reducing non-essential loads or increasing grid charging.",
+        "severity": "warning"
+    },
+    {
+        "title": "Battery Critical Level",
+        "description": "Battery state of charge has fallen below 10%. Backup power availability is significantly reduced.",
+        "severity": "error"
+    },
+    {
+        "title": "High Grid Import Detected",
+        "description": "Grid import has exceeded 250 kW for more than 30 minutes, indicating increased operational demand.",
+        "severity": "warning"
+    },
+    {
+        "title": "Solar Production Below Expected",
+        "description": "Current solar generation is significantly below forecasted levels for the time of day.",
+        "severity": "warning"
+    },
+    {
+        "title": "Solar Inverter Offline",
+        "description": "One or more solar inverters are not reporting data and may be offline.",
+        "severity": "error"
+    },
+    {
+        "title": "Grid Export Active",
+        "description": "Excess solar generation is currently being exported to the grid.",
+        "severity": "info"
+    },
+    {
+        "title": "Peak Demand Threshold Reached",
+        "description": "Facility demand has exceeded the configured peak demand threshold and may incur additional utility charges.",
+        "severity": "warning"
+    },
+    {
+        "title": "Energy Consumption Normal",
+        "description": "Facility energy consumption is operating within expected parameters.",
+        "severity": "info"
+    },
+    {
+        "title": "Communication Loss Detected",
+        "description": "A field device has not reported telemetry data for more than 15 minutes.",
+        "severity": "error"
+    },
+    {
+        "title": "Battery Charging Cycle Started",
+        "description": "Battery energy storage system has entered a scheduled charging cycle.",
+        "severity": "info"
+    }
+]
